@@ -1,5 +1,6 @@
 import { ChartBarIcon, UsersIcon } from "@heroicons/react/24/solid"
 import { HomeModernIcon } from "@heroicons/react/24/solid"
+import Image from "next/image"
 
 function AboutUs() {
   return (
@@ -9,6 +10,23 @@ function AboutUs() {
       <p className='font-semibold max-w-[300px] text-[13px] text-center px-6 py-2 sm:text-sm text-black bg-[#F6E2C5] rounded-full'>Samovic Homes and Properties LTD.</p>
       <p className="font-normal text-[13px] sm:text-sm text-[#464646]">We&apos;re on a mission of transcending the expectation of our Customers through Provision of affordable land and Luxurious houses to the optimal Satisfaction of all stakeholders through.</p>
       <p className="font-normal text-[13px] sm:text-sm text-[#464646]">We make real estate investments simple, secure, and profitable for everyone. This is accomplished by striving for excellence, constantly innovating, conducting business with integrity,  and always putting our customers first.</p>
+    </div>
+    <div className="flex justify-center items-center pt-7">
+    <div className=" relative rounded-xl shadow-lg overflow-hidden mx-6">
+      <div className='absolute right-3 -top-2'> 
+      <Image
+        src="/assets/IMG/Icons/alien-realtor-loader-gif.gif"
+        width={752}
+        height={482}
+        className="w-14 object-contain "
+        alt="my logo"
+        /> </div>
+      <video className=" w-full h-full object-cover" autoPlay={true} muted controls={false} playsInline loop={true} >
+        {/* @ts-ignore */}
+      <source src="/assets/VID/samovic video 3d.mp4" type="video/mp4" />
+      Your browser does not support the video tag.
+    </video>
+    </div>
     </div>
     <div className='flex px-6 my-6 lg:my-10 mx-auto w-full max-w-6xl flex-wrap items-center justify-between gap-4 sm:text-sm text-black font-medium'>
     <div className=" flex justify-center items-center space-x-4">

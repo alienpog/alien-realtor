@@ -24,7 +24,7 @@ const randomLands = lands.sort(() => Math.random() - 0.5)
         </div>
         <div className="relative">
         <div className="absolute right-0 h-full w-24 bg-gradient-to-l from-[#FAFFF1] z-10"/>
-        <div className="flex justify-start p-6 gap-x-6 overflow-x-auto scrollbar-thumb-rounded-md scrollbar-thumb-[#9D551E] scrollbar-thin">
+        <div className="flex justify-start p-6 gap-x-6 overflow-x-auto scrollbar-thumb-rounded-full scrollbar-thumb-[#F6E2C5] scrollbar-thin">
              {active == "land" ? randomLands?.map(land => <div key={land.id} ><Image src= {land.image} width={4320} height={4516} className={` max-w-[350px] object-contain rounded-lg hover:scale-110 hover:opacity-80 hover:shadow-lg transform all ease-in-out duration-500 cursor-pointer`} onClick={()=>{dispatch(image(land.image))}} alt={`${land.id}`} placeholder='blur' blurDataURL='URL'/></div>):null}
          {active == "building" ? buildings?.map(building =>  <div key={building.id} ><Image src= {building.image}width={4320} height={4516} className={` max-w-[350px] object-contain rounded-lg hover:scale-110 hover:opacity-80 hover:shadow-lg transform all ease-in-out duration-500 cursor-pointer`} onClick={()=>{dispatch(image(building.image))}} alt={`${building.id}`} placeholder='blur' blurDataURL='URL'/></div>):null}
          <Link href="https://web.samovichomesandproperties.com/register?code=eoA60cxH" className="w-[350px] h-[365px] flex flex-col space-y-6 justify-center items-center rounded-lg bg-[#F6E2C5] hover:scale-110 hover:opacity-80 hover:shadow-lg transform all ease-in-out duration-300 cursor-pointer">
