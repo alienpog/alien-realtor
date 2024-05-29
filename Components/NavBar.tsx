@@ -18,7 +18,7 @@ function NavBar() {
   return (
     <>
     <div className=" fixed w-full px-4 flex py-2 sm:py-6 sm:pr-8 justify-between items-center bg-[#FAFFF1] shadow-lg rounded-b-xl z-20">
-        <div className="flex justify-center">
+        <div className="flex justify-center items-center">
         <Image
         src="/assets/IMG/hero and gallary/alien-logo.png"
         width={500}

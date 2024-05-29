@@ -99,34 +99,10 @@ export const lands = [
 ]
 
 export const buildings = [
-//    {
-//         "id": 1,
-//         "image":"/assets/IMG/Agbara/building/Canaan Land Courts 2 bedroom duplex.png"
-//    },
-//    {
-//         "id": 2,
-//         "image":"/assets/IMG/Agbara/building/Canaan Land Courts 3 bedroom duplex.png"
-//    },
-//    {
-//         "id": 3,
-//         "image":"/assets/IMG/Agbara/building/Canaan Land Courts 4 bedroom duplex.png"
-//    },
 {
-    "id": 4,
+    "id": 1,
     "image":"/assets/IMG/Redeem Camp Church [Shimawa]/Behind the New Auditorium/building/Dove Smart Estate 3 bedroom duplex.png"
-},
-//    {
-//         "id": 5,
-//         "image":"/assets/IMG/Redeem Camp Church [Shimawa]/Behind the New Auditorium/building/Laurel Estate Signature 2 bedroom apartment.png"
-//    },
-//    {
-//         "id": 6,
-//         "image":"/assets/IMG/Redeem Camp Church [Shimawa]/Behind the New Auditorium/building/Laurel Estate Signature 3 bedroom duplex.png"
-//    },
-//    {
-//         "id": 7,
-//         "image":"/assets/IMG/Redeem Camp Church [Shimawa]/Behind the New Auditorium/building/Laurel Estate Signature 4 bedroom duplex.png"
-//    }   
+},   
 ]
 
 export const team =[
