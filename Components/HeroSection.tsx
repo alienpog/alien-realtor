@@ -3,7 +3,7 @@ import Image from "next/image"
 
 function HeroSection() {
   return (
-    <div className='flex flex-col justify-between items-center pt-[80px] md:pt-[100px]'>
+    <div className='flex flex-col justify-between items-center pt-[90px] md:pt-[100px]'>
         <h1 className=' max-w-3xl my-4 sm:my-8 mx-8 text-4xl lg:text-5xl font-extrabold text-[#000000] leading-[48px] lg:leading-[68px]'>Hello and welcome! I&apos;m Abbey  a Manager at Samovic Homes and Properties LTD.</h1>
         <div className='relative max-w-[700px] w-full'>
         <Image
