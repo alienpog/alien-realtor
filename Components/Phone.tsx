@@ -13,7 +13,7 @@ interface props{
 function Phone({activemodel, setActivemodel}:props) {
     const router = useRouter()
   return (
-    <div className={`fixed top-0 h-screen w-full z-40 ${activemodel ? "right-0" : "right-[-100%]"} transition-all duration-500 ease-in-out`}>
+    <div className={`fixed top-0 h-screen w-full z-40 ${activemodel ? "right-0" : "right-[-100%]"} transition-all duration-300 ease-in-out`}>
     <div className="h-full w-full flex bg-[#FFFFFA] bg-opacity-70 justify-end">    
     <div className="h-full w-3/5 bg-[#FAFFF1]">
         <div className="relative w-full flex justify-end py-12 px-6"><XMarkIcon className=" w-6 h-6 text-[#995323] cursor-pointer" onClick={setActivemodel}/></div>
