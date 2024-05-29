@@ -15,8 +15,8 @@ function GoldenOpportunity() {
         <div className="relative">
         <div className="absolute right-0 h-full w-24 bg-gradient-to-l from-[#FAFFF1] z-10"/>
         <div className="flex space-x-6 overflow-x-auto p-6 scrollbar-thumb-rounded-md scrollbar-thumb-[#9D551E] scrollbar-thin">
-        {randomLands?.map(gold => <Image key={gold.id} src= {gold.image}
-         width={4320} height={4516} className={`max-w-[400px] object-contain rounded-lg hover:scale-110 hover:opacity-80 hover:shadow-lg transform all ease-in-out duration-500 cursor-pointer`} onClick={()=>{dispatch(image(gold.image))}} alt={`${gold.id}`} placeholder='blur' blurDataURL='URL'/>)}
+        {randomLands?.map(gold => <div key={gold.id}><Image src= {gold.image}
+         width={4320} height={4516} className={`max-w-[400px] object-contain rounded-lg hover:scale-110 hover:opacity-80 hover:shadow-lg transform all ease-in-out duration-500 cursor-pointer`} onClick={()=>{dispatch(image(gold.image))}} alt={`${gold.id}`} placeholder='blur' blurDataURL='URL'/></div>)}
         </div>
         </div>
     </div>
