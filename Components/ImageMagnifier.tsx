@@ -8,9 +8,9 @@ function ImageMagnifier({
     alt,
     width,
     height,
-    magnifierHeight = 60,
-    magnifieWidth = 170,
-    zoomLevel = 1.5
+    magnifierHeight = 90,
+    magnifieWidth = 200,
+    zoomLevel = 1.8
   }: {
     alt: string;
     src: string;
