@@ -218,6 +218,10 @@ export const flyers = [
      {
         "id":5,
         "image":"/assets/IMG/flyers/flyer 05.png" 
+     },
+     {
+        "id":6,
+        "image":"/assets/IMG/flyers/flyer 06.png" 
      }
 ]
 
